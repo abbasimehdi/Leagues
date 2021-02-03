@@ -1,0 +1,1694 @@
+{
+	"id": "18265d8e-db52-46d9-9f2a-8862149d009e",
+	"name": "leagues",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"61ea9115-cc18-4610-8624-a17ff8e3e226",
+		"3c326951-9ffc-416a-8188-8d10603beaae",
+		"8969258c-38b5-425e-835a-d3d8038e30b0",
+		"5778e2a6-73b9-4559-b5e8-620d8a30adea"
+	],
+	"protocolProfileBehavior": {},
+	"folders": [
+		{
+			"id": "61ea9115-cc18-4610-8624-a17ff8e3e226",
+			"name": "auth",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "18265d8e-db52-46d9-9f2a-8862149d009e",
+			"folder": null,
+			"order": [
+				"177faacc-57a1-4078-abe8-5d3556c7e7c5",
+				"b5dd3e48-bdee-42f4-8c14-a3d647fd6c1d"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "3c326951-9ffc-416a-8188-8d10603beaae",
+			"name": "league",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "18265d8e-db52-46d9-9f2a-8862149d009e",
+			"folder": null,
+			"order": [
+				"22f8cb3f-7084-4abd-974d-35796133db0f",
+				"16f59b30-60ec-4a7c-b25d-624acfa78b63",
+				"922ff676-c365-43ac-8f97-81a72484a9a8",
+				"fa12d209-fc55-4130-a12e-2b7f0883529c",
+				"c25ea39b-da53-44b5-8f9d-67922588a01c",
+				"08900b85-0b91-4d04-8fc7-a17e9348d31e"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "8969258c-38b5-425e-835a-d3d8038e30b0",
+			"name": "team",
+			"description": "",
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f200c5ea-f30b-4c96-8e26-f0f2879ccb22",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "d304b70c-0ffd-4236-a019-c9c775cb282b",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"collection": "18265d8e-db52-46d9-9f2a-8862149d009e",
+			"folder": null,
+			"order": [
+				"ae2d3cfc-176c-4290-a12f-19195a992dfd",
+				"2513f5d0-5fa6-493a-b923-7570e3b25455",
+				"e4d12675-2b96-4955-b90a-a8e3009532f1",
+				"cc0f7f4f-ac65-41cb-a49d-775ef3acbd14",
+				"b5ca01d1-49e2-4d7a-ad10-d0dc9111e964"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "5778e2a6-73b9-4559-b5e8-620d8a30adea",
+			"name": "team-member",
+			"description": "",
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "91228ba8-9986-4b51-9b1f-ad6a2b3ba125",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "0bad4070-f80d-4c1f-82a4-eff1aa70d77a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"collection": "18265d8e-db52-46d9-9f2a-8862149d009e",
+			"folder": null,
+			"order": [
+				"21ccd226-b2f4-4dc9-a3f1-59e55aab4a23",
+				"4628c133-43cb-43c6-94f2-c998212a79cf",
+				"8ebd6b91-7437-4ec0-a6b1-cb9d85f40335",
+				"f00ac120-bd1e-4029-b1f9-287a968d959e"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"requests": [
+		{
+			"id": "08900b85-0b91-4d04-8fc7-a17e9348d31e",
+			"name": "http://localhost:8000/api/v1/league Copy",
+			"url": "http://localhost:8000/api/v1/league/1",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cacdeca1-d83e-43c3-8b40-18642371411a",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "3c326951-9ffc-416a-8188-8d10603beaae",
+			"rawModeData": "\n{\n\"name\":\"La Liga\",\n\"flag\":\"flag\",\n\"contient_name\":\"europa\",\n\"country_name\":\"espanish\",\n\"state_name\":\"madrid\",\n\"city_name\":\"\",\n\"extra_info\":\"\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "16f59b30-60ec-4a7c-b25d-624acfa78b63",
+			"name": "http://localhost:8000/api/v1/league/teams/id",
+			"url": "http://localhost:8000/api/v1/league/1",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3f1e63ad-a449-4918-ad50-9d286f109be9",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "3c326951-9ffc-416a-8188-8d10603beaae",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "\n{\n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "177faacc-57a1-4078-abe8-5d3556c7e7c5",
+			"name": "om.me/api/register",
+			"url": "http://localhost:8000/api/auth/register",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "token",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5df3b2ca-4063-45cf-a695-291d8992049c",
+						"exec": [
+							"pm.environment.set(\"token\", pm.response.json().token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "61ea9115-cc18-4610-8624-a17ff8e3e226",
+			"rawModeData": "{\n\"name\":\"mehdi\",    \n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\",\n\"password_confirmation\": \"123456\"\n}",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\n//token: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "21ccd226-b2f4-4dc9-a3f1-59e55aab4a23",
+			"name": "http://localhost:8000/api/v1/member",
+			"url": "http://localhost:8000/api/v1/member",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "16ded5dc-2d20-4c0d-9fba-c2871e7446ea",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "5778e2a6-73b9-4559-b5e8-620d8a30adea",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "\n{\n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "22f8cb3f-7084-4abd-974d-35796133db0f",
+			"name": "http://localhost:8000/api/v1/league",
+			"url": "http://localhost:8000/api/v1/league",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3e076f5c-7a77-48b3-b5ae-63a21b7a7160",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "3c326951-9ffc-416a-8188-8d10603beaae",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "\n{\n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2513f5d0-5fa6-493a-b923-7570e3b25455",
+			"name": "http://localhost:8000/api/v1/team/id",
+			"url": "http://localhost:8000/api/v1/team/1",
+			"description": "get team all members",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e8099b5d-9b9c-487e-ab51-3d335ff301fb",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "8969258c-38b5-425e-835a-d3d8038e30b0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "\n{\n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "4628c133-43cb-43c6-94f2-c998212a79cf",
+			"name": "http://localhost:8000/api/v1/member",
+			"url": "http://localhost:8000/api/v1/member",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7df4142f-d618-4c18-9b63-be877a65f52e",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "5778e2a6-73b9-4559-b5e8-620d8a30adea",
+			"rawModeData": "\n{\n\"team_id\":1,    \n\"name\":\"abraham\",\n\"position\":\"player\",\n\"post\":\"forward\",\n\"nationality\":\"english\",\n\"bit\":0,\n\"age\":34,\n\"extra_info\":\"\"\n}\n\n\n\n\n\n\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8ebd6b91-7437-4ec0-a6b1-cb9d85f40335",
+			"name": "http://localhost:8000/api/v1/team",
+			"url": "http://localhost:8000/api/v1/member/1",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "PATCH",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "699c7dde-cc3a-4d01-8919-2a866259b178",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "5778e2a6-73b9-4559-b5e8-620d8a30adea",
+			"rawModeData": "\n{\n\"name\":\"zinedin zidan\",\n\"position\":\"coach\",\n\"post\":\"coach\",\n\"nationality\":\"france\",\n\"bit\":0,\n\"age\":45,\n\"extra_info\":\"\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "922ff676-c365-43ac-8f97-81a72484a9a8",
+			"name": "http://localhost:8000/api/v1/league/id",
+			"url": "http://localhost:8000/api/v1/league/1",
+			"description": "get league teams",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5a5ea55f-7b4d-4e33-83b1-11d48d76b728",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "3c326951-9ffc-416a-8188-8d10603beaae",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "\n{\n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ae2d3cfc-176c-4290-a12f-19195a992dfd",
+			"name": "http://localhost:8000/api/v1/team",
+			"url": "http://localhost:8000/api/v1/team",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "19a9e444-cefe-4a3a-a449-bcbf7fbc086b",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "8969258c-38b5-425e-835a-d3d8038e30b0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "\n{\n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b5ca01d1-49e2-4d7a-ad10-d0dc9111e964",
+			"name": "http://localhost:8000/api/v1/team",
+			"url": "http://localhost:8000/api/v1/team/1",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6ecb7ae0-90ed-4b08-8824-fc21a141174d",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "8969258c-38b5-425e-835a-d3d8038e30b0",
+			"rawModeData": "\n{\n\"name\":\"La Liga\",\n\"flag\":\"flag\",\n\"contient_name\":\"europa\",\n\"country_name\":\"espanish\",\n\"state_name\":\"madrid\",\n\"city_name\":\"\",\n\"extra_info\":\"\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b5dd3e48-bdee-42f4-8c14-a3d647fd6c1d",
+			"name": "http://localhost:8000/api/auth/login",
+			"url": "http://localhost:8000/api/auth/login",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1d561157-cb5a-4945-89a4-7e98d2a9581d",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "61ea9115-cc18-4610-8624-a17ff8e3e226",
+			"rawModeData": "\n{\n\"email\":\"abbasimehdi@gmail.com\",\n\"password\":\"123456\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c25ea39b-da53-44b5-8f9d-67922588a01c",
+			"name": "http://localhost:8000/api/v1/league",
+			"url": "http://localhost:8000/api/v1/league/1",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "PATCH",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c8bd7e5a-8d4a-4a76-b88e-57f71ba764bc",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "3c326951-9ffc-416a-8188-8d10603beaae",
+			"rawModeData": "\n{\n\"name\":\"La Liga\",\n\"flag\":\"flag\",\n\"contient_name\":\"europa\",\n\"country_name\":\"espanish\",\n\"state_name\":\"madrid\",\n\"city_name\":\"\",\n\"extra_info\":\"\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "cc0f7f4f-ac65-41cb-a49d-775ef3acbd14",
+			"name": "http://localhost:8000/api/v1/team",
+			"url": "http://localhost:8000/api/v1/team/1",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "PATCH",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4dff0c80-ac8f-4bc8-b53f-d9324098dafd",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "8969258c-38b5-425e-835a-d3d8038e30b0",
+			"rawModeData": "\n{\n\"id\": 1,\n        \"name\": \"real madrid\",\n        \"no_player\": 23,\n        \"flag\": \"flag\",\n        \"state_name\": \"madrid\",\n        \"city_name\": \"madrid\",\n        \"extra_info\": \"description here\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e4d12675-2b96-4955-b90a-a8e3009532f1",
+			"name": "http://localhost:8000/api/v1/team",
+			"url": "http://localhost:8000/api/v1/team",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5256b004-1c00-44a1-9853-b9ad04adbf21",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "8969258c-38b5-425e-835a-d3d8038e30b0",
+			"rawModeData": "\n{\n\"name\":\"real madrid\",\n\"league_id\":1,\n\"flag\":\"flag\",\n\"no_player\":\"23\",\n\"state_name\":\"madrid\",\n\"city_name\":\"madrid\",\n\"extra_info\":\"description\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f00ac120-bd1e-4029-b1f9-287a968d959e",
+			"name": "http://localhost:8000/api/v1/team",
+			"url": "http://localhost:8000/api/v1/member/1",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0915e670-9499-4107-8f44-427efcf57945",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "5778e2a6-73b9-4559-b5e8-620d8a30adea",
+			"rawModeData": "\n{\n\"name\":\"La Liga\",\n\"flag\":\"flag\",\n\"contient_name\":\"europa\",\n\"country_name\":\"espanish\",\n\"state_name\":\"madrid\",\n\"city_name\":\"\",\n\"extra_info\":\"\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "fa12d209-fc55-4130-a12e-2b7f0883529c",
+			"name": "http://localhost:8000/api/v1/league",
+			"url": "http://localhost:8000/api/v1/league",
+			"description": "authentication",
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				},
+				{
+					"description": null,
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept",
+					"type": "text",
+					"value": "application/json"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Accept-Charset",
+					"type": "text",
+					"value": "utf-8"
+				},
+				{
+					"description": null,
+					"enabled": true,
+					"key": "Authorization",
+					"type": "text",
+					"value": "{{token}}"
+				},
+				{
+					"description": null,
+					"enabled": false,
+					"key": "",
+					"type": "text",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b85795bc-8cf0-4ccd-967f-a68c81fe7fc6",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var access_token = jsonData.access_token;",
+							"postman.setEnvironmentVariable(\"token\", 'Bearer ' + access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "3c326951-9ffc-416a-8188-8d10603beaae",
+			"rawModeData": "\n{\n\"name\":\"serie A\",\n\"flag\":\"\",\n\"contient_name\":\"europa\",\n\"country_name\":\"italy\",\n\"state_name\":\"roma\",\n\"city_name\":\"roma\",\n\"extra_info\":\"\"\n}\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAccept-Charset: utf-8\nAuthorization: {{token}}\n",
+			"pathVariables": {}
+		}
+	]
+}
